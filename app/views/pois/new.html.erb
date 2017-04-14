@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Intégrer un nouvel atelier</h1>
+
+    <%= simple_form_for @poi do |f| %>
+
+      <%= f.input :title %>
+      <%= f.input :caption %>
+      <%= f.input :photo, as: :attachinary %>
+
+
+      <%= f.association :category %>
+      <div id="submit_new_poi">
+
+        <%= f.button :submit %>
+      </div>
+    <% end %>
+<img class="hidden" src="" id="photo">
+</div>

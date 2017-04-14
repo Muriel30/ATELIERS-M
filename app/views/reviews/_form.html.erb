@@ -1,0 +1,12 @@
+<%= simple_form_for([ poi, review ], remote: true) do |form| %>
+  <%= form.input :comment, as: :text %>
+  <strong>Quelles ont été vos impressions sur l'atelier ?</strong>
+  <div class="star-rating">
+    <input type="radio" name="review[rating]" class="rating" value="1" />
+    <input type="radio" name="review[rating]" class="rating" value="2" />
+    <input type="radio" name="review[rating]" class="rating" value="3" />
+    <input type="radio" name="review[rating]" class="rating" value="4" />
+    <input type="radio" name="review[rating]" class="rating" value="5" />
+  </div>
+  <%= form.button :submit %>
+<% end %>

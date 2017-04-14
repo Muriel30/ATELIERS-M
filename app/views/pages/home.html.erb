@@ -1,17 +1,40 @@
 <div class="conteneurCentral">
-  <div class="box size6 color2"></div>
+  <div class="box size6 color2">
+    <div class="banner-home">
+      <div class="banner-home-title">
+        <h1>Une expérience intense, au coeur de la création</h1>
+          <p class="banner-tagline">
+          Ce répertoire d'ateliers géolocalisés est un espace de diffusion qui démocratise la découverte des studios d'artistes et d'artisans en proposant une alternative complémentaire à la visite des musées.
+          </p>
+          <p class="banner-tagline">
+          Vous pouvez accéder aux photos et vidéos des ateliers et à toutes les informations concernant les visites libres, les portes ouvertes ou actualités et découvrir leurs productions en avant-première. L'expérience du partage avec l'artiste dans son atelier est un moment privilégié pour explorer l'art sous un angle privilégié.</p>
+      </div>
+    </div>
+</div>
 
-  <div class="box size6 color3"></div>
+  <div class="box size6 color3">
 
-  <div class="box size3 color5"></div>
+  </div>
 
-  <div class="box size6 color1"></div>
+  <div class="box size3 color5">
+<!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <div class="navbar-wagon-item">
+      <%= link_to "Découvrir les ateliers géolocalisés", pois_path, class: "navbar-link" %>
+    </div>
+    <%= link_to "Ajouter un atelier", new_poi_path, class: "btn btn-warning" %>
+</div>
 
+  </div>
 
+  <div class="box size3 color3">
+    <%= render "pois/search" %></div>
 
-  <div class="box size3 color3"></div>
+  <div class="box size4 color4">
+    <%= cl_image_tag("dublin13_cnt_25nov09_646_irbgts",
+      width: 400, height: 300, crop: :fill) %>
 
-  <div class="box size4 color4"></div>
+  </div>
 
   <div class="box size6 color2"></div>
 
