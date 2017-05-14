@@ -1,9 +1,10 @@
-<div class="navbar-wagon" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= cl_image_tag("dublin13_cnt_25nov09_646_irbgts.jpg", :effect=>"negate") %>);">
+<div class="navbar-wagon">
+ <%= cl_image_tag("dublin13_cnt_25nov09_646_irbgts.jpg", :effect=>"negate", height: 200, crop: :fill) %>
 
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
     <%= image_tag "" %>
-    <h1>ATELIERS : L'art de vivre l'art... <h2>Art of living art...</h2><h4> Arte di vivir el arte... Kunst Lebenkunst... Arto di viva arto...</h4>
+    <h1>Emergence - ATELIERS : L'art de vivre l'art... <h2>Art of living art...</h2><h4> Arte di vivir el arte... Kunst Lebenkunst... Arto di viva arto...</h4>
   <% end %>
 
   <!-- Right Navigation -->

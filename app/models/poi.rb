@@ -6,5 +6,5 @@ class Poi < ApplicationRecord
 
   validates :category, presence: true
   # validates :user, presence: true
-# validates :photo, presence: true
+  validates :photo, presence: true
 end
