@@ -23,7 +23,8 @@ html{margin:0;padding:0;background:#020003;}
   width:100%;
   height:auto;
 }
-.box{margin:12px;height:550px;-webkit-border-radius:3px;border-radius:3px;position:relative;}
+
+.box{margin:12px;height:570px;-webkit-border-radius:5px;border-radius:5px;position:relative; background-size: cover; }
 .size1{-webkit-flex: 1 100px;-moz-flex: 1 100px;-ms-flex: 1 100px;flex: 1 100px;}
 .size2{-webkit-flex: 2 200px;-moz-flex: 2 200px;-ms-flex: 2 200px;flex: 2 200px;}
 .size3{-webkit-flex: 3 300px;-moz-flex: 3 300px;-ms-flex: 3 300px;flex: 3 300px;}
@@ -75,10 +76,9 @@ html{margin:0;padding:0;background:#020003;}
   margin:12px;
   height:80px;
   left: 30px;
+  -webkit-border-radius:5px;border-radius:5px;
+ }
 
-  -webkit-border-radius:3px;border-radius:3px;
-
-}
 .map {
 background-size: cover;
 align-items: right;
@@ -90,7 +90,6 @@ margin-top: 20px;
     font-size: 360px;
     margin-top: 40px;
     position: absolute;
-
 }
 .fa-picture-o:hover,
 .fa-picture-o:focus {
